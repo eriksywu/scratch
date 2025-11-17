@@ -7,7 +7,7 @@ DS : {X} \longrightarrow {Y} \times {R}, \quad where \quad {X} =  \mathbb{R}^N, 
 $$
 
 $DS$ has these constraints:
-1. $ \exists {m} \; in \; {M} \; \text{such that } Increase(X) = Increase(D(X)) \; \text{for all } x \in X $
+1. $\exists {m} \; in \; {M} \; \text{such that } Increase(X) = Increase(D(X)) \; \text{for all } x \in X$
     - The increase observed in the input and output must be equal
 2. $\forall x \in X, \; y = DS(x) \; => y_1 = x_1 \; and \; y_m = x_n$
     - The first and last values of the input must be preserved as-is in the output. This preserves reset points between blocks.
@@ -16,7 +16,7 @@ $DS$ has these constraints:
     
 
 
-$ Increase $ can be defined in code as:
+$Increase$ can be defined in code as:
 ```
 func increase(x []datapoint) number {
     var adjustment number
